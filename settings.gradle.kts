@@ -11,4 +11,4 @@ develocity {
     }
 }
 
-rootProject.name = "alchemist-experiments-bootstrap"
+rootProject.name = "collektive-experiments-bootstrap"
