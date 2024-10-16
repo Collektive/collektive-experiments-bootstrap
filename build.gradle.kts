@@ -27,7 +27,7 @@ sourceSets {
             implementation(kotlin("reflect"))
         }
         resources {
-            srcDir("src/main/protelis")
+            srcDir("src/main/yaml")
         }
     }
 }
