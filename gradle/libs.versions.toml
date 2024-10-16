@@ -1,18 +1,30 @@
 [versions]
-alchemist = "34.1.4"
-kotlin = "2.0.21"
+kotlin = "1.9.23"
+alchemist = "34.0.3"
+collektive = "10.3.2"
 
 [libraries]
 alchemist = { module = "it.unibo.alchemist:alchemist", version.ref = "alchemist" }
-alchemist-protelis = { module = "it.unibo.alchemist:alchemist-incarnation-protelis", version.ref = "alchemist" }
-alchemist-scafi = { module = "it.unibo.alchemist:alchemist-incarnation-scafi", version.ref = "alchemist" }
+alchemist-swingui = { module = "it.unibo.alchemist:alchemist-swingui", version.ref = "alchemist" }
+alchemist-ui-tooling = { module = "it.unibo.alchemist:alchemist-ui-tooling", version.ref = "alchemist" }
+alchemist-euclidean-geometry = { module = "it.unibo.alchemist:alchemist-euclidean-geometry", version.ref = "alchemist" }
+collektive = { module = "it.unibo.collektive:dsl", version.ref = "collektive" }
+collektive-incarnation = { module = "it.unibo.collektive:alchemist-incarnation-collektive", version.ref = "collektive" }
+collektive-plugin = { module = "it.unibo.collektive:compiler-plugin", version.ref = "collektive" }
 
 [bundles]
-alchemist-protelis = [ "alchemist", "alchemist-protelis" ]
+alchemist = [
+    "alchemist",
+    "alchemist-euclidean-geometry",
+    "alchemist-swingui",
+    "alchemist-ui-tooling"
+]
+collektive = ["collektive", "collektive-incarnation", "collektive-plugin"]
 
 [plugins]
-gitSemVer = { id = "org.danilopianini.git-sensitive-semantic-versioning", version = "3.1.7" }
+collektive = { id = "it.unibo.collektive.collektive-plugin", version.ref = "collektive" }
+gitSemVer = { id = "org.danilopianini.git-sensitive-semantic-versioning", version = "3.1.4" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-kotlin-qa = { id = "org.danilopianini.gradle-kotlin-qa", version = "0.68.0" }
-multiJvmTesting = { id = "org.danilopianini.multi-jvm-test-plugin", version = "1.2.8" }
-taskTree = { id = "com.dorongold.task-tree", version = "4.0.0" }
+kotlin-qa = { id = "org.danilopianini.gradle-kotlin-qa", version = "0.61.0" }
+multiJvmTesting = { id = "org.danilopianini.multi-jvm-test-plugin", version = "0.5.8" }
+taskTree = { id = "com.dorongold.task-tree", version = "2.1.1" }
