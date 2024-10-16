@@ -11,6 +11,7 @@ alchemist-euclidean-geometry = { module = "it.unibo.alchemist:alchemist-euclidea
 collektive = { module = "it.unibo.collektive:dsl", version.ref = "collektive" }
 collektive-incarnation = { module = "it.unibo.collektive:alchemist-incarnation-collektive", version.ref = "collektive" }
 collektive-plugin = { module = "it.unibo.collektive:compiler-plugin", version.ref = "collektive" }
+collektive-stdlib = { module = "it.unibo.collektive:stdlib", version.ref = "collektive" }
 
 [bundles]
 alchemist = [
@@ -19,7 +20,7 @@ alchemist = [
     "alchemist-swingui",
     "alchemist-ui-tooling"
 ]
-collektive = ["collektive", "collektive-incarnation", "collektive-plugin"]
+collektive = ["collektive", "collektive-incarnation", "collektive-plugin", "collektive-stdlib"]
 
 [plugins]
 collektive = { id = "it.unibo.collektive.collektive-plugin", version.ref = "collektive" }
