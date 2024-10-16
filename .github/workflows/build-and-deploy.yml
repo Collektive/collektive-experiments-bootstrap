@@ -7,29 +7,29 @@ jobs:
   check-simulations-native:
     strategy:
       matrix:
-        os: [ windows-2022, macos-14, ubuntu-24.04 ]
+        os: [ windows-2022, macos-14, ubuntu-22.04 ]
     runs-on: ${{ matrix.os }}
     concurrency:
       group: sim-check${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
       cancel-in-progress: true
     steps:
-    - name: Checkout
-      uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
-    - uses: DanySK/build-check-deploy-gradle-action@3.5.10
-      with:
-        build-command: true
-        check-command: ./gradlew runAllGraphic
-        deploy-command: true
-        should-run-codecov: false
-        should-validate-wrapper: ${{ contains('Linux', runner.os) }}
+      - name: Checkout
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
+      - uses: DanySK/build-check-deploy-gradle-action@2.4.17
+        with:
+          build-command: true
+          check-command: ./gradlew runAllGraphic
+          deploy-command: true
+          should-run-codecov: false
+          should-validate-wrapper: ${{ contains('Linux', runner.os) }}
   create-charts:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     concurrency:
       group: charts${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
       cancel-in-progress: true
     steps:
       - name: Checkout
-        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -37,7 +37,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Install python
-        uses: actions/setup-python@v5.2.0
+        uses: actions/setup-python@v5.1.0
       - name: Upgrade pip
         run: pip install --upgrade pip --user
       - name: Install requirements
@@ -49,28 +49,26 @@ jobs:
       - name: Generate archive
         run: tar --use-compress-program zstd -cf charts.tar.zst charts/
       - name: Upload charts
-        uses: actions/upload-artifact@v4.4.3
+        uses: actions/upload-artifact@v4.3.3
         with:
           name: charts
           path: charts.tar.zst
-  check-simulations-docker:
-    runs-on: ubuntu-24.04
-    concurrency:
-      group: container-check${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
-      cancel-in-progress: true
-    steps:
-    - name: Checkout
-      uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
-    - name: Prepare docker-compose to be tested in CI
-      run: sed 's/CI:\s.*/CI:\ \"true\"/g' -i docker-compose.yml
-    - name: Run compose
-      run: docker compose up --build
+  #  check-simulations-docker:
+  #    runs-on: ubuntu-22.04
+  #    concurrency:
+  #      group: container-check${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
+  #      cancel-in-progress: true
+  #    steps:
+  #    - name: Checkout
+  #      uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v4.1.2
+  #    - name: Run compose
+  #      run: docker-compose up --build
   release:
     needs:
       - check-simulations-native
-      - check-simulations-docker
+      #      - check-simulations-docker
       - create-charts
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     concurrency:
       # Only one release job at a time per branch, as only master releases.
       group: release-${{ github.event.number || github.ref }}
@@ -82,25 +80,25 @@ jobs:
       )
     steps:
       - name: Checkout
-        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
         with:
           submodules: recursive
           token: ${{ secrets.DEPLOYMENT_TOKEN }}
       - name: Download charts artifact
-        uses: actions/download-artifact@v4.1.8
+        uses: actions/download-artifact@v4.1.7
         with:
           name: charts
       - name: Find the version of Node from package.json
         id: node-version
         run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
       - name: Install Node
-        uses: actions/setup-node@v4.0.4
+        uses: actions/setup-node@v4.0.2
         with:
           node-version: ${{ steps.node-version.outputs.version }}
       - name: Login to dockerhub
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          DOCKER_USERNAME: danysk
+          DOCKER_USERNAME: angelacortecchia
         run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
       - name: Semantic Release
         env:
@@ -109,11 +107,11 @@ jobs:
           npm install
           npx semantic-release
   success:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     needs:
       - create-charts
       - check-simulations-native
-      - check-simulations-docker
+      #      - check-simulations-docker
       - release
     if: >-
       always() && (

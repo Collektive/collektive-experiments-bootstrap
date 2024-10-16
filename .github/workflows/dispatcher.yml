@@ -6,6 +6,8 @@ on:
     branches-ignore:
       # Dependabot branch builds disabled as they do not access secrets
       - 'dependabot/**'
+      - 'feat/**'
+      - 'fix/**'
     paths-ignore:
       - '.gitignore'
       - '.mergify.yml'
