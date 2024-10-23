@@ -95,11 +95,11 @@ jobs:
         uses: actions/setup-node@v4.0.2
         with:
           node-version: ${{ steps.node-version.outputs.version }}
-      - name: Login to dockerhub
-        env:
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          DOCKER_USERNAME: angelacortecchia
-        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
+#      - name: Login to dockerhub
+#        env:
+#          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+#          DOCKER_USERNAME: angelacortecchia
+#        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
