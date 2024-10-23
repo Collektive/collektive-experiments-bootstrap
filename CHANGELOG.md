@@ -1,3 +1,31 @@
+## 1.0.0 (2024-10-23)
+
+### Features
+
+* add gradient simulation example ([40dcbe2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/40dcbe2c3e81cf2464f2849954369ee8a5c41134))
+
+### Bug Fixes
+
+* **gitGuardian:** remove useless .env ([011650c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/011650c0ab8d3110ac756faf05aa832fb14735d4))
+* operator plus import ([1ea39aa](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1ea39aac50a83ac2dde4117c6af3c08e39ceb4fd))
+* use fielded double plus ([296cede](https://github.com/Collektive/collektive-experiments-bootstrap/commit/296cede4ccc945df371fc857a6152f7b79878c13))
+
+### Build and continuous integration
+
+* temporary remove login to dockerhub ([e07a230](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e07a2308a91d19868a9d7c0fe904e22d398cfc08))
+
+### General maintenance
+
+* add .env to gitignore ([a6964f4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a6964f439d9aea2c930c14261c7bc12a5fb42338))
+* add effects for gradient simulation example ([7460369](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7460369ade81657bdb181e39a23e5912a816749e))
+* **build:** update build gradle with Collektive libraries ([c335630](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c33563012c8943dfc2931a5127d5c2387bd3162d))
+* **ci:** temporary comment task 'check simulations docker' ([1e50bf1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1e50bf114672b105e5d3b0996c9144d7f1016dba))
+* fix rootproject name ([5727ea4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5727ea4c4245051fd7b4451cc53133898dbbbce3))
+* **lib:** add Collektive libraries and plugin ([2f58af9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2f58af9e37a369a621cfaca21f2389615c9ba99a))
+* **libs:** add collektive stdlib ([84e6d01](https://github.com/Collektive/collektive-experiments-bootstrap/commit/84e6d01a333319d511dc1df799351228b2e15aa0))
+* **lib:** update kotlin version ([d93afc6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d93afc6b3282eb8b136285a5000732aa34ca7eae))
+* update gitignore ([0bc0803](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0bc0803a3e3d09306a91ffc102f481349b5a8066))
+
 ## [1.2.1](https://github.com/DanySK/alchemist-experiments-bootstrap/compare/1.2.0...1.2.1) (2024-02-09)
 
 
