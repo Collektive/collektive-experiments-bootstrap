@@ -1,3 +1,27 @@
+## [1.0.1](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.0...1.0.1) (2024-11-05)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.112 ([210872a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/210872a0d2c240e70b1941143c2869ae1f01313c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.113 ([e508d83](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e508d8322cf2b2611d35190fc5e3152ef1ff267c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.114 ([7be1b72](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7be1b728117d45ee615b3140f209ee2a1aec20c3))
+* **deps:** update dependency xarray to v2024.10.0 ([f1d4369](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f1d4369a3380b57f91cdc3fae8b5c76daa629c73))
+* **deps:** update node.js to v22 ([b0d3b60](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b0d3b60bc54a8cf1b097152b673768e99cb14edf))
+
+### Bug Fixes
+
+* remove warnings as errors ([754cf0f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/754cf0ffd94d63e3a5b940c5d001de49a5109e93))
+* silent Alchemist verbosity ([5a5fabe](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5a5fabe53821445c79f979b0392808f9099e56e6))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.1.0 ([e101e6c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e101e6c3b49a5761332957579717393e8bde152f))
+
+### General maintenance
+
+* **libs:** update collektive version ([f0b9cb4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f0b9cb46e3d2a432c48956601d55694afa6abfb2))
+* **release:** update gradle.properties .env versions to 1.0.0 [skip ci] ([f32e182](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f32e18263ff85324806026fdcfebecae86a5b747))
+
 ## 1.0.0 (2024-10-23)
 
 ### Features
