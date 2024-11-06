@@ -1,3 +1,38 @@
+## [1.0.2](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.1...1.0.2) (2024-11-06)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v10.7.0 ([8f5d5e8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8f5d5e8924e29fc14cd2da5214a5c6f9a7e30921))
+* **deps:** update alchemist to v34.1.10 ([d96087c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d96087c8daa7383e74c52499f08f3327d390a5da))
+* **deps:** update alchemist to v34.1.11 ([b137cf2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b137cf265f7c7543e74ab5106c9dcf062ad23d05))
+* **deps:** update alchemist to v34.1.12 ([bb9a493](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bb9a493307457b2605755643ea360b593c2f8029))
+* **deps:** update dependency org.jetbrains.kotlin.jvm to v2.0.21 ([1b3cb30](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1b3cb30fbf4f7b9b70f539f5f400334d110aed34))
+* **deps:** update plugin gitsemver to v3.1.7 ([f0e029a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f0e029af7f4f8e7038bde0cec39803f58408ab15))
+* **deps:** update plugin kotlin-qa to v0.69.0 ([81e7a8b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/81e7a8b4e7f98db13bb0a115f91a718954be0bdb))
+* **deps:** update plugin multijvmtesting to v1 ([5bdf9cf](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5bdf9cf612e36fb1f3834eef9a27995b9718ba4a))
+* **deps:** update plugin tasktree to v4 ([2ec0204](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2ec020468a137a06912b50961a475387af459bfb))
+
+### Bug Fixes
+
+* follow Collektive's renovate configuration ([bb247fd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bb247fd3aeaa64dded39db89271cae531a4dbc5e))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.7 ([5b0f1f1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5b0f1f191a627c81235e33ac9c7dd5cf1d9ed652))
+* **deps:** update actions/checkout action to v4.2.2 ([9d06826](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9d0682623e87545a6aa569e23b1579ca6896fb63))
+* **deps:** update actions/download-artifact action to v4.1.8 ([82fbdb7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/82fbdb7b377069948ce56d04ab047bf58e0d88bf))
+* **deps:** update actions/setup-python action to v5.1.1 ([241df63](https://github.com/Collektive/collektive-experiments-bootstrap/commit/241df63715742f20ed5b9e89520c188d6a9e8b59))
+* **deps:** update actions/setup-python action to v5.3.0 ([48d8c40](https://github.com/Collektive/collektive-experiments-bootstrap/commit/48d8c403365b376a36a95e8f66a61fe9422a9cf3))
+* **deps:** update actions/upload-artifact action to v4.3.6 ([c77d8ab](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c77d8ab72ca13058bd72ce2916cde3d437deea9f))
+* **deps:** update actions/upload-artifact action to v4.4.3 ([53f7c8d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/53f7c8d56f7d8f1a615ca23d09c61b1d90dc872c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3 ([75ccc17](https://github.com/Collektive/collektive-experiments-bootstrap/commit/75ccc17ca508fe2da81cd1e54f6bf86b2f30d66d))
+* **deps:** update dependency ubuntu github actions runner to v24 ([c4ce0e5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c4ce0e525ca33b73bd3dc52e3c71e31a39d24418))
+
+### General maintenance
+
+* **build:** remove kotlin reflection depencency ([68d871d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/68d871d5a8b9c22d0853bf03902c85baf381aa81))
+* **release:** update gradle.properties .env versions to 1.0.1 [skip ci] ([5443806](https://github.com/Collektive/collektive-experiments-bootstrap/commit/54438063a9e266f111779fa79824fd7134da5903))
+
 ## [1.0.1](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.0...1.0.1) (2024-11-05)
 
 ### Dependency updates
