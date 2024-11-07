@@ -1,3 +1,13 @@
+## [1.0.3](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.2...1.0.3) (2024-11-07)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v10.8.0 ([1ae6ee5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1ae6ee5d0eac1d42583143442036db6f9b8030d2))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.2 [skip ci] ([c05af76](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c05af76192a6d181bbce5aa69d7d913334f192a0))
+
 ## [1.0.2](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.1...1.0.2) (2024-11-06)
 
 ### Dependency updates
