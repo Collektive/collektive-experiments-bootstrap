@@ -1,3 +1,16 @@
+## [1.0.5](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.4...1.0.5) (2024-11-10)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v10.10.0 ([8572868](https://github.com/Collektive/collektive-experiments-bootstrap/commit/85728688abb81f3c14d0b1a103d3c99ee73978bf))
+* **deps:** update alchemist to v34.1.13 ([f906a8d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f906a8d02b0e5e9b101918bfe49eb6988f0e814a))
+* **deps:** update alchemist to v34.1.14 ([9a90fcb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9a90fcb7f685e29f0e508c719ff1a9f1696efe1f))
+* **deps:** update plugin multijvmtesting to v1.3.0 ([8f7fa59](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8f7fa5936c894626666d357d9d1016db599078d1))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.4 [skip ci] ([17fcce3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/17fcce38f182ef4e3d1b2698adbad4d4783c8790))
+
 ## [1.0.4](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.3...1.0.4) (2024-11-08)
 
 ### Dependency updates
