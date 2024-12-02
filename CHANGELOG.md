@@ -1,3 +1,46 @@
+## [1.0.9](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.8...1.0.9) (2024-12-02)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v11.0.1 ([9f8972b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9f8972bf5e9a991516801560b2fcc39efe137c56))
+* **deps:** update alchemist to v35.0.3 ([fa18edf](https://github.com/Collektive/collektive-experiments-bootstrap/commit/fa18edf5f28c440669683dd8446b0e8ea01c2b4b))
+* **deps:** update alchemist to v36.0.1 ([7fab60c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7fab60c3ce44f64f544ce76ae85002fb18653131))
+* **deps:** update alchemist to v36.0.2 ([38c2bf1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/38c2bf1085a74867e460068c7e1320a4b4ec6fd8))
+* **deps:** update alchemist to v36.0.3 ([3e3db05](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3e3db05208c8508f31c6ae42a4b0e73c21ffe5ec))
+* **deps:** update dependency gradle to v8.11 ([0aa3ffa](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0aa3ffa22b300d884c1ab13876b1ee56a315f6a9))
+* **deps:** update dependency gradle to v8.11.1 ([d6924e1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d6924e16a7b23c25d4142f939361a6195b525fe0))
+* **deps:** update dependency it.unibo.alchemist:alchemist to v35.0.1 ([9330de3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9330de36ad11aa92f06a9f9e6f09f0a91ca0f254))
+* **deps:** update dependency it.unibo.alchemist:alchemist-euclidean-geometry to v35.0.2 ([81e43cd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/81e43cd2226f64e24a635ec782a7cfbd12856982))
+* **deps:** update dependency it.unibo.alchemist:alchemist-swingui to v36 ([002d280](https://github.com/Collektive/collektive-experiments-bootstrap/commit/002d280c7e9282ebbeb8ff1450a4865d4fc79714))
+* **deps:** update dependency xarray to v2024.11.0 ([cafeb93](https://github.com/Collektive/collektive-experiments-bootstrap/commit/cafeb935f0bf5689b4ba361be498d0854670a6b1))
+* **deps:** update plugin kotlin-qa to v0.70.0 ([9cf62f5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9cf62f56c3c22f289be07a394e6daddff97c5775))
+* **deps:** update plugin kotlin-qa to v0.70.1 ([087920b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/087920bbd14423edde3a1fb22cba6bdada1e5520))
+* **deps:** update plugin kotlin-qa to v0.70.2 ([b27fe47](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b27fe475d50f5b2645b8f265781f82238fac2006))
+* **deps:** update plugin kotlin-qa to v0.71.0 ([acfc042](https://github.com/Collektive/collektive-experiments-bootstrap/commit/acfc042c6e7b79fb6352da2f68c2a69c89a409de))
+* **deps:** update plugin kotlin-qa to v0.72.0 ([3adc574](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3adc57472d74a25a0cd744bf605e4280c4ad92db))
+* **deps:** update plugin kotlin-qa to v0.73.0 ([7caa45f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7caa45fb085b1b9154f789040da0f0238bc49922))
+* **deps:** update plugin kotlin-qa to v0.74.0 ([ebe7f77](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ebe7f77f7ffa122514bdf6cfc89d880ef71d91a9))
+* **deps:** update plugin kotlin-qa to v0.75.0 ([78b4844](https://github.com/Collektive/collektive-experiments-bootstrap/commit/78b48441f684f913a284fc4bdb3558496f8aaea3))
+* **deps:** update plugin multijvmtesting to v1.3.1 ([3878240](https://github.com/Collektive/collektive-experiments-bootstrap/commit/38782401110caf6dad4f459aab7f30ec5458b235))
+* **deps:** update plugin multijvmtesting to v1.3.2 ([aa929c6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/aa929c614fe869ab1c6c91b4144928f5316edbd9))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.9.0 ([099d58e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/099d58e0686db55eede27e26047ab2e305a1dd17))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.15 ([c16934d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c16934dc2caad1396f897e2fe160571f74ba9200))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.16 ([e1dfc7a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e1dfc7aa2596c742c54ad53ec5449b8f1976c080))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.17 ([e516a2d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e516a2d15118e21a5dea9170f1fc9a1c1984e83c))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.18 ([72797a1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/72797a168bf4bc53a978812839425a9f30e218e4))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.19 ([94b1960](https://github.com/Collektive/collektive-experiments-bootstrap/commit/94b19607e42e9ddbe209d21f57d71e69fc7ee4a3))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.20 ([992de78](https://github.com/Collektive/collektive-experiments-bootstrap/commit/992de789ff116ce3a653ebeae372dcd164713b95))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.21 ([7e524d5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7e524d5c0a6122e57dfe6473a0631da19b398b02))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.22 ([c57fd04](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c57fd043001283200d426504a8926206c3c9cf80))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.23 ([7d4e9c9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7d4e9c9638f6643b8d7388f8cafbb3aae1ee4915))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.8 [skip ci] ([2950bae](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2950bae88896aea6b7e84a7f8be84b1952655e5f))
+
 ## [1.0.8](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.7...1.0.8) (2024-11-14)
 
 ### Dependency updates
