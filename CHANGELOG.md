@@ -1,3 +1,31 @@
+## [1.0.11](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.10...1.0.11) (2024-12-10)
+
+### Dependency updates
+
+* **deps:** update alchemist to v36.0.4 ([5523061](https://github.com/Collektive/collektive-experiments-bootstrap/commit/55230617d81bdc29beb7c75de01a1cbf7848abb7))
+* **deps:** update alchemist to v36.0.5 ([83c5e4d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/83c5e4df652fa1a5e514c968346deaac64ad618a))
+* **deps:** update alchemist to v36.0.6 ([6b2bebc](https://github.com/Collektive/collektive-experiments-bootstrap/commit/6b2bebce98671046de2c8f90ebf626c286e5f776))
+* **deps:** update alpine docker tag to v3.21.0 ([8f1839c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8f1839ce4e75a9d6e31b3df2dd6ed7f95f0d36a3))
+* **deps:** update dependency matplotlib to v3.9.3 ([350802c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/350802c73e2645e576f6ffed2f2143fa6ad96e6e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.116 ([89ec2d3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/89ec2d3a8f66021a5b64d3fe187c3632719e8a50))
+* **deps:** update node.js to 22.12 ([d014993](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d01499348ef82fd0f0ae676c2e04f9557bc11299))
+* **deps:** update plugin kotlin-qa to v0.77.0 ([f5cb66b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f5cb66bc7bc744da83bed7462b2f15b2b3d5d420))
+* **deps:** update plugin multijvmtesting to v2 ([2918a84](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2918a84124fcffc3cc344acc25f2daf470e206ad))
+* **deps:** update python docker tag to v3.13.1 ([172612f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/172612fff025e96087c562bf4675aaabe4dd4be8))
+
+### Bug Fixes
+
+* remove use of context receivers ([8a9e3a7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8a9e3a73774f998f2461977dd45d1c0509ea9190))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.24 ([5e70ee9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5e70ee92eaec282cdb2eb1f212579ccfa3e3a9e7))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.5.25 ([25aef25](https://github.com/Collektive/collektive-experiments-bootstrap/commit/25aef25d04a03c9606f735f660549fb19c66fb46))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.10 [skip ci] ([bb0eba9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bb0eba94c3b123dae6bd4b3c4bc45a37553f09ae))
+
 ## [1.0.10](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.9...1.0.10) (2024-12-02)
 
 ### Dependency updates
