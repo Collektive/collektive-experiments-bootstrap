@@ -1,3 +1,15 @@
+## [1.0.15](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.14...1.0.15) (2025-01-08)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v12.0.1 ([d88891d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d88891de2ceba461c991ee63edf89375a783534a))
+* **deps:** update dependency xarray to v2025 ([d21467e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d21467ecb7e9620092c6ec21b6b0786cea86896c))
+* **deps:** update plugin kotlin-qa to v0.77.1 ([88f53de](https://github.com/Collektive/collektive-experiments-bootstrap/commit/88f53de7700192c7201371e62446c669e6851c04))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.14 [skip ci] ([f63e299](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f63e299e6e83982d5e9da50d1aa81298ea945297))
+
 ## [1.0.14](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.13...1.0.14) (2024-12-28)
 
 ### Dependency updates
