@@ -1,3 +1,14 @@
+## [1.0.16](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.15...1.0.16) (2025-01-08)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.0 ([974a700](https://github.com/Collektive/collektive-experiments-bootstrap/commit/974a700951984384c37fea527072eab72a548921))
+* **deps:** update plugin multijvmtesting to v3 ([83b58c0](https://github.com/Collektive/collektive-experiments-bootstrap/commit/83b58c0e69c2083fad0ba4a231703ebef256f887))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.15 [skip ci] ([b00df8a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b00df8aa7be86f6ac0baa838d83709fcd635d8df))
+
 ## [1.0.15](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.14...1.0.15) (2025-01-08)
 
 ### Dependency updates
