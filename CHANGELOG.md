@@ -1,3 +1,21 @@
+## [1.0.19](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.18...1.0.19) (2025-01-10)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v12.1.1 ([7710dbe](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7710dbe9fa594c341e13b81dff3caca9d0001fd2))
+* **deps:** update alchemist ([a2b1460](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a2b146073e1563665474a3d4e1534f166147a91c))
+* **deps:** update alchemist to v36.1.3 ([9c82f5b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9c82f5b1ad759452b3d16f1ff5aaafeb579a0c0a))
+* **deps:** update alpine docker tag to v3.21.1 ([3d6094f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3d6094f06e9fc63ed8a6399f09fc4a46e490fe11))
+* **deps:** update alpine docker tag to v3.21.2 ([f6f8bc1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f6f8bc1adbe1985dc673b2e07c8b47d910887096))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.0 ([b71ded9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b71ded97d43d24e73774e133451ee2cf553a6f86))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.18 [skip ci] ([db8ad21](https://github.com/Collektive/collektive-experiments-bootstrap/commit/db8ad21f1e476fa2a80d4fc290906351724b2da7))
+
 ## [1.0.18](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.17...1.0.18) (2025-01-09)
 
 ### Dependency updates
