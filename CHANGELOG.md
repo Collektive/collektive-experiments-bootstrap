@@ -1,3 +1,19 @@
+## [1.0.20](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.19...1.0.20) (2025-01-17)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v12.2.0 ([0214719](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0214719c5247765e83164c8af499f2e938e36582))
+* **deps:** update alchemist to v37 ([4e294ad](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4e294ad49f7582393091d753964ae5677e4c284d))
+* **deps:** update dependency xarray to v2025.1.1 ([f56c61a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f56c61a292c7d2e8a77c710d4c0b5a3f2d112243))
+
+### Build and continuous integration
+
+* **deps:** update actions/upload-artifact action to v4.6.0 ([05781e7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/05781e7dae840e2b453414f130aa1b41a9710981))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.19 [skip ci] ([ffb1b09](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ffb1b097a471cea29d591f30bcadbd1bd215689e))
+
 ## [1.0.19](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.18...1.0.19) (2025-01-10)
 
 ### Dependency updates
