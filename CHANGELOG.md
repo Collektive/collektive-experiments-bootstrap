@@ -1,3 +1,14 @@
+## [1.0.21](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.20...1.0.21) (2025-01-18)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v12.2.1 ([d09689f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d09689fd0f5f57aef1d7cb5c040b9e4e39f7fd49))
+* **deps:** update alchemist to v37.0.1 ([83b4010](https://github.com/Collektive/collektive-experiments-bootstrap/commit/83b4010ec8ec7a0347c770f2a767d4381780180e))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.20 [skip ci] ([1d6e8ed](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1d6e8ed20a97c9fad581ef5a5aebf9178c7e6b1d))
+
 ## [1.0.20](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.19...1.0.20) (2025-01-17)
 
 ### Dependency updates
