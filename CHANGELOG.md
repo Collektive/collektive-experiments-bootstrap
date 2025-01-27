@@ -1,3 +1,22 @@
+## [1.0.25](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.24...1.0.25) (2025-01-27)
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.collektive.collektive-plugin to v12.3.3 ([69ce108](https://github.com/Collektive/collektive-experiments-bootstrap/commit/69ce1087cc87d73fe36e78f71fd9c4e3c819b1a1))
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.10 ([480657b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/480657b72c6138fd7f4d5e7734a329bc1c0cc089))
+* **deps:** update plugin gitsemver to v3.1.10 ([3f30870](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3f308702f4c8161b42d0f6e21657b186ddc4538d))
+* **deps:** update plugin gitsemver to v3.1.9 ([722b294](https://github.com/Collektive/collektive-experiments-bootstrap/commit/722b294434ead8cdd480cc5d78a37e87a46ca5f4))
+* **deps:** update plugin gitsemver to v4 ([f1f6650](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f1f66508f680c3c44a8fba8d3b5e2e1a7eddca46))
+* **deps:** update plugin multijvmtesting to v3.2.2 ([429278e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/429278ebaf9c363065cb93cc28a372dc7fb4b65f))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.2.0 ([fa12f8e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/fa12f8e55cbc954a8eba0eef3210c5f5e1e5df30))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.24 [skip ci] ([50418e3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/50418e3a497f0f20771bf91994c0f62f94ca6fb0))
+
 ## [1.0.24](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.23...1.0.24) (2025-01-26)
 
 ### Dependency updates
