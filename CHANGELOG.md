@@ -1,3 +1,17 @@
+## [1.0.28](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.27...1.0.28) (2025-02-01)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v13.1.1 ([0f1daf5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0f1daf550160473cef0c8318dffe8bdc09fb63dd))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.8 ([a749a51](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a749a51416b3ee22fa6705b30293ec6efbb8a891))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.27 [skip ci] ([0638333](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0638333e8a7981c0e40ea2ef07487e78264f76b6))
+
 ## [1.0.27](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.26...1.0.27) (2025-01-30)
 
 ### Dependency updates
