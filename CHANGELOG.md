@@ -1,3 +1,22 @@
+## [1.0.29](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.28...1.0.29) (2025-02-10)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v14 ([70556f0](https://github.com/Collektive/collektive-experiments-bootstrap/commit/70556f07716c9a281952212738a5b4674259f98b))
+* **deps:** update alchemist to v37.1.7 ([797fccb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/797fccbff4a36b86fda096a733fcf7e4b9267fd2))
+* **deps:** update alchemist to v37.1.8 ([9a8e0ca](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9a8e0cac49b969740c4713370ff187fce5b3be25))
+* **deps:** update alchemist to v37.2.0 ([1c35d42](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1c35d42eba6f5fafefe4d7604c161299cd25bf58))
+* **deps:** update alchemist to v37.2.1 ([a8a600b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a8a600b2dbbec235a2dfac3b34c43c485ff804f2))
+* **deps:** update alchemist to v37.3.0 ([ff0f50a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ff0f50a290742887d60a6c75ee653bc09f0f658c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.120 ([ee5e59e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ee5e59ecbec3f01b7f77da7c2ea520cd301a51bf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.122 ([8a3378c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8a3378c0adbb1c8298c3a0825a9b7e2330b30ca1))
+* **deps:** update dependency xarray to v2025.1.2 ([54da7cd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/54da7cd0ad1d189e89a9e409a72d2a612cdf9f75))
+* **deps:** update python docker tag to v3.13.2 ([3b58498](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3b58498b187d529d184d10e1870ff4b1d212c6b3))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.28 [skip ci] ([5ead549](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5ead549749ee2b91e0d03712a96f5bff24dad3af))
+
 ## [1.0.28](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.27...1.0.28) (2025-02-01)
 
 ### Dependency updates
