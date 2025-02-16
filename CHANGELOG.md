@@ -1,3 +1,16 @@
+## [1.0.32](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.31...1.0.32) (2025-02-16)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v16.0.1 ([9f863f3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9f863f30c3a795651932b0bf4897619462c9d563))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.123 ([fdd77df](https://github.com/Collektive/collektive-experiments-bootstrap/commit/fdd77df645fc58d47d5ce25f032f6334b40bab05))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.124 ([2fe2171](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2fe21719695defe735f6136aea0fa0c6c2d774c4))
+* **deps:** update node.js to 22.14 ([f63cf67](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f63cf67ab505482f658c154f77c435204840f6cc))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.31 [skip ci] ([81a2041](https://github.com/Collektive/collektive-experiments-bootstrap/commit/81a204108696ebc145a0d79df37bff0e4d036ad7))
+
 ## [1.0.31](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.30...1.0.31) (2025-02-12)
 
 ### Dependency updates
