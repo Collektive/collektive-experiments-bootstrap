@@ -1,3 +1,25 @@
+## [1.0.33](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.32...1.0.33) (2025-02-21)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v16.1.0 ([47d94b9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/47d94b997610dd893fca3081c6333452699df0e8))
+* **deps:** update alchemist to v38.0.1 ([76760d2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/76760d2feacd780c862f0a07b5cd0fc076c80997))
+* **deps:** update alchemist to v38.0.2 ([8793c1c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8793c1c7f712fd4e4ca4a33520848599a82766da))
+* **deps:** update alchemist to v39 ([cd155e5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/cd155e562e007d8dfa9b679d6cad62033ba2e216))
+* **deps:** update alpine docker tag to v3.21.3 ([d50c995](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d50c995934edd8e70a4c54b9233e20a43557ab6e))
+* **deps:** update dependency it.unibo.alchemist:alchemist-swingui to v38.0.3 ([de98c96](https://github.com/Collektive/collektive-experiments-bootstrap/commit/de98c967752ee79cb1a96af35a2a167825264303))
+* **deps:** update plugin com.gradle.enterprise to v3.19.2 ([f6f150f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f6f150f33b2d17981816d9fd32519e9c3b3a795e))
+
+### Build and continuous integration
+
+* **deps:** update actions/upload-artifact action to v4.6.1 ([66618d5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/66618d5742335ef5624e3ddd88c3da41fefe9927))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.10 ([6eeff8a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/6eeff8a0a8f045f7a43bac03b8e66f5d76ad0d19))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.9 ([480bc12](https://github.com/Collektive/collektive-experiments-bootstrap/commit/480bc12ddc7bbb8691be0f1a614232cb3173df81))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.32 [skip ci] ([c315dd5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c315dd50a008b7a605ea5ce774007ed67fdfe5dd))
+
 ## [1.0.32](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.31...1.0.32) (2025-02-16)
 
 ### Dependency updates
