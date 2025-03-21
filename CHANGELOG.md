@@ -1,3 +1,20 @@
+## [1.0.37](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.36...1.0.37) (2025-03-21)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v17.0.2 ([6ad4d9a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/6ad4d9af88c00f6ec6c060e35828d737034e7f6c))
+
+### Build and continuous integration
+
+* **deps:** update actions/download-artifact action to v4.2.0 ([8aa8e89](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8aa8e894bf43d99127137066bd62ca7b4d295c8b))
+* **deps:** update actions/download-artifact action to v4.2.1 ([f753ca1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f753ca1a10aacbccccf6b4231823ee52f98d425b))
+* **deps:** update actions/upload-artifact action to v4.6.2 ([09110d2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/09110d2a62633dd170b755d836c074c1073956af))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.13 ([501fdc5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/501fdc51c6f1ef04273eb85f1c6342938a80e3f2))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.36 [skip ci] ([68dfb54](https://github.com/Collektive/collektive-experiments-bootstrap/commit/68dfb547917620e8977f8c703dd4a4667b1ee408))
+
 ## [1.0.36](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.35...1.0.36) (2025-03-17)
 
 ### Dependency updates
