@@ -1,3 +1,15 @@
+## [1.0.41](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.40...1.0.41) (2025-03-23)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v17.1.3 ([3f859f6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3f859f63f7904c1f3d9441e660317f243c6727a4))
+* **deps:** update dependency xarray to v2025.3.0 ([f72c93b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f72c93b7a62cc56d5504e2718cf165eeb831bab2))
+* **deps:** update plugin multijvmtesting to v3.3.0 ([0cea2c3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0cea2c357b9e03af9ed831f5c0f9329f43a9e1a4))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.40 [skip ci] ([1e69812](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1e69812c565ea081d64b79a1a4e50cf53d3255aa))
+
 ## [1.0.40](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.39...1.0.40) (2025-03-22)
 
 ### Dependency updates
