@@ -1,3 +1,24 @@
+## [1.0.44](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.43...1.0.44) (2025-04-01)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v17.2.1 ([2541c18](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2541c18304ccfac944ac45fea358e01eacb9266e))
+* **deps:** update alchemist to v42.0.2 ([53a057d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/53a057df612efa10d2a08db96a3a698cda178af9))
+* **deps:** update alchemist to v42.0.3 ([5d93da3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5d93da3121e8442c797aa04c09cdafc1eea3795e))
+* **deps:** update alchemist to v42.0.4 ([9a41792](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9a417928faa9e654048eaf1b264915eb66de5c53))
+* **deps:** update alchemist to v42.0.5 ([cc3d8c5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/cc3d8c5c71b72c2e9ce8830c69ae54ca102105db))
+* **deps:** update plugin kotlin-qa to v0.84.1 ([7eecbae](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7eecbaebe924a62796a30574341ffe3131315bc8))
+* **deps:** update plugin kotlin-qa to v0.85.0 ([f8edf0b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f8edf0b589858054a4e7d53f165e1b3db0b040f6))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-python action to v5.5.0 ([9be0823](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9be0823d659a64c2618bfaf34460154462fc030a))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.14 ([72f20a0](https://github.com/Collektive/collektive-experiments-bootstrap/commit/72f20a05b9b40615f31d07c2a9e74af576f369ab))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.43 [skip ci] ([562da44](https://github.com/Collektive/collektive-experiments-bootstrap/commit/562da44ce0cc23dd1ce219843d25eda1ec1785a8))
+
 ## [1.0.43](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.42...1.0.43) (2025-03-24)
 
 ### Dependency updates
