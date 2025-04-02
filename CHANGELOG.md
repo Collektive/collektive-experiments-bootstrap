@@ -1,3 +1,13 @@
+## [1.0.45](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.44...1.0.45) (2025-04-02)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v17.2.2 ([96675e1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/96675e17c920199b5bf0b72e5d2e9c9adafe7fc4))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.44 [skip ci] ([639d1f5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/639d1f5c1110b4d11233a1be4ec824d2e51d17d3))
+
 ## [1.0.44](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.43...1.0.44) (2025-04-01)
 
 ### Dependency updates
