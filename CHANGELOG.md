@@ -1,3 +1,18 @@
+## [1.0.46](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.45...1.0.46) (2025-04-07)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v19 ([ee48a60](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ee48a608dd493c7285b5ffc2e0a7e1342ab65b51))
+* **deps:** update dependency xarray to v2025.3.1 ([625b682](https://github.com/Collektive/collektive-experiments-bootstrap/commit/625b6824ecfe0569f5b861a8f9bffdaf75314340))
+
+### Bug Fixes
+
+* adapt to Collektive v19 ([7801f3e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7801f3e0e4eeda9e9870b2e9409f1c818055d953))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.45 [skip ci] ([30df006](https://github.com/Collektive/collektive-experiments-bootstrap/commit/30df0063a2a437fb3993ffc7e03c561c27e3d858))
+
 ## [1.0.45](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.44...1.0.45) (2025-04-02)
 
 ### Dependency updates
