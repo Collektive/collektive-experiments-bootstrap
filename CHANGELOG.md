@@ -1,3 +1,23 @@
+## [1.0.50](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.49...1.0.50) (2025-04-10)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v20.2.3 ([dd981a6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/dd981a6dae4ff47f3d2f85d8c570c3cdd7d3cec6))
+* **deps:** update alchemist to v42.0.7 ([b88735a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b88735a12a8c910d18a156ac47b30940edd9b668))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v0.10.0 ([b2d64cd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b2d64cdb3b5625bde370d419eda7147c217f40d9))
+
+### Bug Fixes
+
+* adapt to collektive v20.2.3 patch ([2aa82e2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2aa82e26e829ff5055a171eae1cfd6edec704833))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.16 ([b853a41](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b853a41b3198c868b5233b1bc6570880fb7f1e96))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.49 [skip ci] ([10c7cdf](https://github.com/Collektive/collektive-experiments-bootstrap/commit/10c7cdfb748e2b408f202937c3ed9fa053026728))
+
 ## [1.0.49](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.48...1.0.49) (2025-04-09)
 
 ### Dependency updates
