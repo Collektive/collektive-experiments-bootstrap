@@ -1,6 +1,6 @@
 package it.unibo.collektive.examples.gradient
 
-import it.unibo.alchemist.collektive.device.DistanceSensor
+import it.unibo.alchemist.collektive.device.CollektiveDevice
 import it.unibo.collektive.aggregate.api.Aggregate
 import it.unibo.collektive.aggregate.api.share
 import it.unibo.collektive.alchemist.device.sensors.EnvironmentVariables
@@ -11,7 +11,7 @@ import kotlin.Double.Companion.POSITIVE_INFINITY
 /**
  * Extension function to evaluate the gradient in an [Aggregate] context.
  */
-fun Aggregate<Int>.gradient(distanceSensor: DistanceSensor, source: Boolean): Double =
+fun Aggregate<Int>.gradient(distanceSensor: CollektiveDevice<*>, source: Boolean): Double =
     share(POSITIVE_INFINITY) {
         val dist = with(distanceSensor) { distances() }
         when {
@@ -23,5 +23,5 @@ fun Aggregate<Int>.gradient(distanceSensor: DistanceSensor, source: Boolean): Do
 /**
  * The entrypoint of the simulation running a gradient.
  */
-fun Aggregate<Int>.gradientEntrypoint(env: EnvironmentVariables, distanceSensor: DistanceSensor): Double =
+fun Aggregate<Int>.gradientEntrypoint(env: EnvironmentVariables, distanceSensor: CollektiveDevice<*>): Double =
     gradient(distanceSensor, env["source"])
