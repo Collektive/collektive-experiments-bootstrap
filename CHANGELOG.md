@@ -1,3 +1,24 @@
+## [1.0.52](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.51...1.0.52) (2025-04-14)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v22 ([27e54cb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/27e54cbcae0d7c9135b9712f065ba02dae3a00e5))
+* **deps:** adapt to collektive v22 ([63d853c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/63d853ce4dc6987b848631b1cfe4b0246df9032c))
+* **deps:** update python docker tag to v3.13.3 ([81a839d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/81a839d37743a9653f5dbbc051b1833fa72b0616))
+
+### Bug Fixes
+
+* collektive version ([97d40b3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/97d40b375ecd0ee2a9abe8bfc23b38086c0e9336))
+* typo ([b6f0e97](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b6f0e97a412e261328ba9d7c824e9a8f00ee9020))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([13a6da3](https://github.com/Collektive/collektive-experiments-bootstrap/commit/13a6da3d8ccb5dd88e7813ef845ddbc7a00d44f6))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.51 [skip ci] ([a8cf4a9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a8cf4a9f3ab4e827bcb5e841d20016268840213d))
+
 ## [1.0.51](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.50...1.0.51) (2025-04-11)
 
 ### Dependency updates
