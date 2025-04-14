@@ -1,3 +1,19 @@
+## [1.0.53](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.52...1.0.53) (2025-04-14)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v22.0.1 ([bce996d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bce996d83bc15b1383d9bf5e6a94a32e58f2a0e6))
+* **deps:** update alchemist to v42.0.8 ([1b61572](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1b6157280dd8c67e576623c553235d0e9c14862b))
+* **deps:** update plugin gitsemver to v5 ([138f76d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/138f76d1b3523ed50c8f242bc06b90906ed90b1d))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.17 ([8e379c4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8e379c4cedc5a998ffc16de50389005b8cdd2b10))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.52 [skip ci] ([104e553](https://github.com/Collektive/collektive-experiments-bootstrap/commit/104e5536032f2ac2d0991470c334d63f1b84b420))
+
 ## [1.0.52](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.51...1.0.52) (2025-04-14)
 
 ### Dependency updates
