@@ -1,3 +1,14 @@
+## [1.0.56](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.55...1.0.56) (2025-04-16)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v22.3.1 ([78c68cb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/78c68cb86d2779988814cd28811e02a5270ccb34))
+* **deps:** update plugin multijvmtesting to v3.4.0 ([3f69b58](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3f69b585567bdceb84fd81e006bce9c16edfb71a))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.55 [skip ci] ([62b09a4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/62b09a42759d3c00c8a19190b087bde13b31ece4))
+
 ## [1.0.55](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.54...1.0.55) (2025-04-16)
 
 ### Dependency updates
