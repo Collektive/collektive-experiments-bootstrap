@@ -15,10 +15,11 @@ fun Aggregate<Int>.gradient(
     distances: Field<Int, Double>,
     source: Boolean,
 ): Double =
-    share(POSITIVE_INFINITY) {
+    share(POSITIVE_INFINITY) { field ->
+        val minGradient = (field + distances).minValue(POSITIVE_INFINITY)
         when {
             source -> 0.0
-            else -> (it + distances).minValue(POSITIVE_INFINITY)
+            else -> minGradient
         }
     }
 
@@ -27,7 +28,7 @@ fun Aggregate<Int>.gradient(
  */
 fun Aggregate<Int>.gradientEntrypoint(distanceSensor: CollektiveDevice<*>): Double =
     with(distanceSensor) {
-        return gradient(
+        gradient(
             distances = distances(),
             source = localId == 0,
         )
