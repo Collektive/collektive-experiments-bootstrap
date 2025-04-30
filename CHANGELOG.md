@@ -1,3 +1,31 @@
+## [1.1.0](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.58...1.1.0) (2025-04-30)
+
+### Features
+
+* add hooks and checks in CI ([#275](https://github.com/Collektive/collektive-experiments-bootstrap/issues/275)) ([48fb2a2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/48fb2a25c8505c766d72283708804df0a4007eb2))
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.collektive.collektive-plugin to v24 ([ee5133d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ee5133d324d94a4e879b050ec65b6b17793c3874))
+
+### Bug Fixes
+
+* gradient due to disalignment ([a50271c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a50271c6740d7c5c6891762966b8cf756f58ef5e))
+* remove hooks ([366c369](https://github.com/Collektive/collektive-experiments-bootstrap/commit/366c3695855cadb4f18c1b0a397d7c8e0097c578))
+* remove java launcher ([7590812](https://github.com/Collektive/collektive-experiments-bootstrap/commit/75908126945d662fe126516e9e43e6dc898a4492))
+
+### Documentation
+
+* rephrase kdoc ([4e97205](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4e9720517cbb7bda805be084f026a55fe03b1d2b))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.0.58 [skip ci] ([c4a132b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c4a132beb131f2ec33e0b48cc2e63aa052e23660))
+
+### Style improvements
+
+* fix according to ktlint ([213a2e0](https://github.com/Collektive/collektive-experiments-bootstrap/commit/213a2e0948d8993b996290123a3aaf597575f363))
+
 ## [1.0.58](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.0.57...1.0.58) (2025-04-28)
 
 ### Dependency updates
