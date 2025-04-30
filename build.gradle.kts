@@ -134,11 +134,6 @@ File(rootProject.rootDir.path + "/src/main/yaml")
             mainClass.set("it.unibo.alchemist.Alchemist")
             classpath = sourceSets["main"].runtimeClasspath
             args("run", it.absolutePath)
-            javaLauncher.set(
-                javaToolchains.launcherFor {
-                    languageVersion.set(JavaLanguageVersion.of(multiJvm.latestJava))
-                },
-            )
             if (System.getenv("CI") == "true") {
                 args("--override", "terminate: { type: AfterTime, parameters: [2] } ")
             } else {
