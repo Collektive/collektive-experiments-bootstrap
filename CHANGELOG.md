@@ -1,3 +1,18 @@
+## [1.1.4](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.3...1.1.4) (2025-05-04)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v24.0.4 ([5f53e24](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5f53e24fcefa51abdce3ad0c69b1f92c2f3aca8b))
+* **deps:** update dependency xarray to v2025.4.0 ([86a9389](https://github.com/Collektive/collektive-experiments-bootstrap/commit/86a9389918515bf180119220ae8ea1d11a894081))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.18 ([bc9fe77](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bc9fe776462d3094c3f2361502badb1d27a9bc1b))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.3 [skip ci] ([bfa607d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bfa607d68a16dbc2279f8cc044fffef2ec0c3fe6))
+
 ## [1.1.3](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.2...1.1.3) (2025-05-02)
 
 ### Dependency updates
