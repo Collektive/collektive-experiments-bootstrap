@@ -1,6 +1,8 @@
-# Alchemist Experiments Bootstrap
+# Collektive Experiments Bootstrap
 
-A customized Alchemist Primer with releases and data analysis ready.
+A customized Collektive bootstrap for experiments **based on the Alchemist simulator**, 
+with releases and data analysis ready.
+For further information about how the Alchemist simulator works, please refer to the [Alchemist documentation](https://alchemistsimulator.github.io/reference/swing/index.html).
 
 Upon generation of an experiment from this template:
 1. add a secret github token with `repo` permissions named `DEPLOYMENT_TOKEN`;
