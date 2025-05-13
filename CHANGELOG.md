@@ -1,3 +1,16 @@
+## [1.1.7](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.6...1.1.7) (2025-05-13)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v24.0.6 ([4701bb5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4701bb554aa85dc5bdc0d8517fda52ba8ed666c8))
+* **deps:** update plugin gitsemver to v5.1.3 ([f3dfb61](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f3dfb61dc55025d3f715076bea386be14fd4a58a))
+* **deps:** update plugin kotlin-qa to v0.86.2 ([e2d422f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e2d422ffa7d32b72c63c3588bd23046178f8ded1))
+* **deps:** update plugin multijvmtesting to v3.4.2 ([a744526](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a74452630b6dd66f6f271c3a7a61e8ba2bd24b19))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.6 [skip ci] ([b9e7f56](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b9e7f5663b93dfdfeca39e88a5666a25b7a72044))
+
 ## [1.1.6](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.5...1.1.6) (2025-05-13)
 
 ### Dependency updates
