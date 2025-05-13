@@ -1,3 +1,14 @@
+## [1.1.6](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.5...1.1.6) (2025-05-13)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.21 ([1c63823](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1c63823f9fc3b6a427a071a210b34a439e6793eb))
+* **deps:** update dependency matplotlib to v3.10.3 ([930c774](https://github.com/Collektive/collektive-experiments-bootstrap/commit/930c7747b645db31cabf0e232c3b55d19796efd7))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.5 [skip ci] ([a607965](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a607965c1d462d736c5d1c04c26e5bfe1ff50fa9))
+
 ## [1.1.5](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.4...1.1.5) (2025-05-05)
 
 ### Dependency updates
