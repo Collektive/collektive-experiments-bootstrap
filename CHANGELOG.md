@@ -1,3 +1,20 @@
+## [1.1.9](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.8...1.1.9) (2025-05-19)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v24.0.9 ([bce9f6f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bce9f6f01fa06a8c49d10780eb0e0b361870536a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.128 ([397f75f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/397f75faadaa05b9f356e9aa1ef04beb86871390))
+* **deps:** update plugin org.gradle.toolchains.foojay-resolver-convention to v1 ([ba51fc6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ba51fc6441c60963c630327aca8679d6175b7600))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.19 ([e8f51b2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e8f51b2dc87fe48004a3968bda2fac1b90927dcb))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v3.7.20 ([62e6d70](https://github.com/Collektive/collektive-experiments-bootstrap/commit/62e6d70f41f0be29b5cda4af5c41e56242a366d6))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.8 [skip ci] ([6687470](https://github.com/Collektive/collektive-experiments-bootstrap/commit/668747014b417df321bdf15988edc060e3b62089))
+
 ## [1.1.8](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.7...1.1.8) (2025-05-15)
 
 ### Dependency updates
