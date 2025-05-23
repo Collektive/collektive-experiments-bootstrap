@@ -1,3 +1,20 @@
+## [1.1.10](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.9...1.1.10) (2025-05-23)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v24.0.10 ([ae6c79a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ae6c79ac0c8667eec3be24c503b77be845bff17d))
+* **deps:** update dependency gradle to v8.14.1 ([7551384](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7551384a145ee0f9f45789218a05fcca051b5dfc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([874c7d2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/874c7d25b29f0e36083b037fc62c8d30ab99a535))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([877fd47](https://github.com/Collektive/collektive-experiments-bootstrap/commit/877fd47c4944448c68e31d4497ce26cd5813d106))
+* **deps:** update node.js to 22.16 ([60886ef](https://github.com/Collektive/collektive-experiments-bootstrap/commit/60886ef6241847c8bcf7b238b99d5baa4bddc287))
+* **deps:** update plugin kotlin-qa to v0.87.0 ([e1b674d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e1b674d1fd053f506c9d1948f6f54c056e0067fa))
+* **deps:** update plugin kotlin-qa to v0.87.1 ([e969f78](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e969f7854dc8a87f4bb10cee37a5bb0b49a3365e))
+* **deps:** update plugin multijvmtesting to v3.4.3 ([a3081ae](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a3081ae8ded473af1a6efeb51b238df10500a37e))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.9 [skip ci] ([88185d6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/88185d61cfd95e69597957a60715142491fe504a))
+
 ## [1.1.9](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.8...1.1.9) (2025-05-19)
 
 ### Dependency updates
