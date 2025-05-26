@@ -1,3 +1,15 @@
+## [1.1.11](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.10...1.1.11) (2025-05-26)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v25 ([d0bfb72](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d0bfb722a86a1121f7a14f022755df55bb30a97c))
+* **deps:** update alchemist to v42.2.1 ([1e67ecf](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1e67ecfd2775538768a6c703787d09a5c36b450a))
+* **deps:** update plugin kotlin-qa to v0.88.0 ([8e9c655](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8e9c655b7c08c0597dc1f18499fcf9ed1dbd016f))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.10 [skip ci] ([846e5c8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/846e5c8b2611a81c8d84aadbb035ab7ea13be2e5))
+
 ## [1.1.10](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.9...1.1.10) (2025-05-23)
 
 ### Dependency updates
