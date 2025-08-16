@@ -1,7 +1,6 @@
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import java.awt.GraphicsEnvironment
-import java.io.ByteArrayOutputStream
 import java.util.Locale
 import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
@@ -69,14 +68,14 @@ dependencies {
 // Heap size estimation for batches
 val maxHeap: Long? by project
 val heap: Long = maxHeap ?: if (System.getProperty("os.name").lowercase().contains("linux")) {
-    ByteArrayOutputStream().use { output ->
-        exec {
-            executable = "bash"
-            args = listOf("-c", "cat /proc/meminfo | grep MemAvailable | grep -o '[0-9]*'")
-            standardOutput = output
-        }
-        output.toString().trim().toLong() / 1024
-    }.also { println("Detected ${it}MB RAM available.") } * 9 / 10
+    File("/proc/meminfo").useLines { lines ->
+        lines.firstOrNull { it.startsWith("MemAvailable:") }
+            ?.trim()
+            ?.split(Regex("\\s+"))?.getOrNull(1)?.toLong()
+            ?.let { it / 1024 }
+            ?: error("MemAvailable not found in /proc/meminfo")
+    }.toString().trim().toLong()
+        .also { println("Detected ${it}MB RAM available.") } * 9 / 10
 } else {
     // Guess 16GB RAM of which 2 used by the OS
     14 * 1024L
