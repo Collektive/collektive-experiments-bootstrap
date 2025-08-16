@@ -1,3 +1,14 @@
+## [1.1.15](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.14...1.1.15) (2025-08-16)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v26.1.2 ([4085f22](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4085f225a470aa9c4b2c261d378db9bd15b108bc))
+* **deps:** update plugin kotlin-qa to v0.93.2 ([93eb586](https://github.com/Collektive/collektive-experiments-bootstrap/commit/93eb58616f9812c7ca0ec5fcfc768f508a2b0987))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.14 [skip ci] ([926211d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/926211dcd3c089b9aafa4578c1d9d117325237d8))
+
 ## [1.1.14](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.13...1.1.14) (2025-08-16)
 
 ### Dependency updates
