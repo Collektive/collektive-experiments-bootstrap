@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.2.10"
 alchemist = "42.3.6"
-collektive = "26.1.2"
+collektive = "27.1.0"
 
 [libraries]
 alchemist = { module = "it.unibo.alchemist:alchemist", version.ref = "alchemist" }
@@ -25,6 +25,4 @@ collektive = ["collektive", "collektive-incarnation", "collektive-stdlib"]
 collektive = { id = "it.unibo.collektive.collektive-plugin", version.ref = "collektive" }
 gitSemVer = { id = "org.danilopianini.git-sensitive-semantic-versioning", version = "7.0.4" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-kotlin-qa = { id = "org.danilopianini.gradle-kotlin-qa", version = "0.94.0" }
-multiJvmTesting = { id = "org.danilopianini.multi-jvm-test-plugin", version = "4.1.0" }
 taskTree = { id = "com.dorongold.task-tree", version = "4.0.1" }

@@ -4,8 +4,9 @@ import it.unibo.alchemist.collektive.device.CollektiveDevice
 import it.unibo.collektive.aggregate.Field
 import it.unibo.collektive.aggregate.api.Aggregate
 import it.unibo.collektive.aggregate.api.share
+import it.unibo.collektive.aggregate.values
+import it.unibo.collektive.stdlib.collapse.min
 import it.unibo.collektive.stdlib.doubles.FieldedDoubles.plus
-import it.unibo.collektive.stdlib.fields.minValue
 import kotlin.Double.Companion.POSITIVE_INFINITY
 
 /**
@@ -13,7 +14,7 @@ import kotlin.Double.Companion.POSITIVE_INFINITY
  */
 fun Aggregate<Int>.gradient(distances: Field<Int, Double>, source: Boolean): Double =
     share(POSITIVE_INFINITY) { field ->
-        val minGradient = (field + distances).minValue(POSITIVE_INFINITY)
+        val minGradient = (field + distances).neighbors.values.min()
         when {
             source -> 0.0
             else -> minGradient

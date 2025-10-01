@@ -1,64 +1,46 @@
-import io.gitlab.arturbosch.detekt.Detekt
-import io.gitlab.arturbosch.detekt.DetektPlugin
 import java.awt.GraphicsEnvironment
 import java.util.Locale
 import org.gradle.kotlin.dsl.withType
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 plugins {
     application
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.collektive)
     alias(libs.plugins.kotlin.jvm)
-    alias(libs.plugins.kotlin.qa)
-    alias(libs.plugins.multiJvmTesting)
     alias(libs.plugins.taskTree)
 }
 
-plugins.withType<DetektPlugin> {
-    val detektTasks = tasks.withType<Detekt>().matching { task ->
-        task.name.let { it.endsWith("Main") || it.endsWith("Test") } &&
-            !task.name.contains("Baseline")
-    }
-    val check by tasks.getting
-    val detektAll by tasks.registering {
-        group = "verification"
-        check.dependsOn(this)
-        dependsOn(detektTasks)
+val jdkVersion = File(".java-version").readText().trim().substringBefore('.').toInt()
+
+kotlin {
+    compilerOptions {
+        jvmTarget = JvmTarget.fromTarget(jdkVersion.toString())
     }
 }
-// Enforce the use of the Kotlin version in all subprojects
-configurations.matching { it.name != "detekt" }.all {
-    resolutionStrategy.eachDependency {
-        if (requested.group == "org.jetbrains.kotlin") {
-            useVersion(project.libs.versions.kotlin.get())
-        }
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(jdkVersion))
     }
 }
 
 repositories {
     mavenCentral()
 }
-/*
- * Only required if you plan to use Protelis, remove otherwise
- */
+
 sourceSets {
     main {
-        dependencies {
-            implementation(libs.bundles.alchemist)
-            implementation(libs.bundles.collektive)
-        }
         resources {
             srcDir("src/main/yaml")
         }
     }
 }
 
-multiJvm {
-    jvmVersionForCompilation.set(17)
-}
-
 dependencies {
+    implementation(libs.bundles.alchemist)
+    implementation(libs.bundles.collektive)
     implementation(kotlin("stdlib-jdk8"))
     if (!GraphicsEnvironment.isHeadless()) {
         implementation("it.unibo.alchemist:alchemist-swingui:${libs.versions.alchemist.get()}")
@@ -100,9 +82,7 @@ val runAllBatch by tasks.register<DefaultTask>("runAllBatch") {
 
 fun String.capitalizeString(): String = this.replaceFirstChar {
     if (it.isLowerCase()) {
-        it.titlecase(
-            Locale.getDefault(),
-        )
+        it.titlecase(Locale.getDefault())
     } else {
         it.toString()
     }
@@ -153,7 +133,7 @@ File(rootProject.rootDir.path + "/src/main/yaml")
         runAllBatch.dependsOn(batch)
     }
 
-tasks.withType(KotlinCompile::class).all {
+tasks.withType<KotlinCompilationTask<*>>().all {
     compilerOptions {
         allWarningsAsErrors = false
     }
