@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.2.20"
 alchemist = "42.3.8"
-collektive = "27.2.0"
+collektive = "27.3.0"
 
 [libraries]
 alchemist = { module = "it.unibo.alchemist:alchemist", version.ref = "alchemist" }
