@@ -1,7 +1,5 @@
-import java.awt.GraphicsEnvironment
 import java.util.Locale
 import org.gradle.kotlin.dsl.withType
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 plugins {
@@ -9,21 +7,9 @@ plugins {
     alias(libs.plugins.gitSemVer)
     alias(libs.plugins.collektive)
     alias(libs.plugins.kotlin.jvm)
+//    alias(libs.plugins.kotlin.qa)
+    alias(libs.plugins.multiJvmTesting)
     alias(libs.plugins.taskTree)
-}
-
-val jdkVersion = File(".java-version").readText().trim().substringBefore('.').toInt()
-
-kotlin {
-    compilerOptions {
-        jvmTarget = JvmTarget.fromTarget(jdkVersion.toString())
-    }
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(jdkVersion))
-    }
 }
 
 repositories {
@@ -32,19 +18,18 @@ repositories {
 
 sourceSets {
     main {
+        dependencies {
+            implementation(libs.bundles.alchemist)
+            implementation(libs.bundles.collektive)
+        }
         resources {
             srcDir("src/main/yaml")
         }
     }
 }
 
-dependencies {
-    implementation(libs.bundles.alchemist)
-    implementation(libs.bundles.collektive)
-    implementation(kotlin("stdlib-jdk8"))
-    if (!GraphicsEnvironment.isHeadless()) {
-        implementation("it.unibo.alchemist:alchemist-swingui:${libs.versions.alchemist.get()}")
-    }
+multiJvm {
+    jvmVersionForCompilation.set(17)
 }
 
 // Heap size estimation for batches
