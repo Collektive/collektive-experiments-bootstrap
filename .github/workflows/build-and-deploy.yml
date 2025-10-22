@@ -66,8 +66,8 @@ jobs:
   release:
     needs:
       - check-simulations-native
-      #      - check-simulations-docker
-      - create-charts
+      # - check-simulations-docker
+      # - create-charts
     runs-on: ubuntu-24.04
     concurrency:
       # Only one release job at a time per branch, as only master releases.
@@ -98,7 +98,7 @@ jobs:
 #      - name: Login to dockerhub
 #        env:
 #          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-#          DOCKER_USERNAME: angelacortecchia
+#          DOCKER_USERNAME: ${{ github.repository_owner }}
 #        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin docker.io
       - name: Semantic Release
         env:
@@ -109,7 +109,7 @@ jobs:
   success:
     runs-on: ubuntu-24.04
     needs:
-      - create-charts
+      # - create-charts
       - check-simulations-native
       #      - check-simulations-docker
       - release
