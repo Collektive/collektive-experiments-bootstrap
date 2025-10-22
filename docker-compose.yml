@@ -1,4 +1,3 @@
-version: '3'
 services:
   prepare:
     image: alpine:3.22.2
