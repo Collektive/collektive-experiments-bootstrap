@@ -1,3 +1,14 @@
+## [1.1.18](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.17...1.1.18) (2025-10-23)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v27.3.2 (patch) ([#446](https://github.com/Collektive/collektive-experiments-bootstrap/issues/446)) ([4531ac0](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4531ac0d22b4c3ffe2371943f79a29bce19d1d82))
+* **deps:** update plugin gitsemver to v7.0.5 ([#447](https://github.com/Collektive/collektive-experiments-bootstrap/issues/447)) ([7b84bf9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7b84bf9019ffd6161f54290192afb7d442090e39))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.17 [skip ci] ([1645fa5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1645fa551908da7fc74007785c3362d99c732cfd))
+
 ## [1.1.17](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.16...1.1.17) (2025-10-23)
 
 ### Dependency updates
