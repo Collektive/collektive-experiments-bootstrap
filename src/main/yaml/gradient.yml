@@ -1,8 +1,8 @@
+incarnation: collektive
+
 network-model:
   type: ConnectWithinDistance
   parameters: [5]
-
-incarnation: collektive
 
 _pool: &program
   - time-distribution: 1
