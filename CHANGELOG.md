@@ -1,3 +1,17 @@
+## [1.1.21](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.20...1.1.21) (2025-11-25)
+
+### Bug Fixes
+
+* **gradient example:** specifying incarnation as first parameter ([#485](https://github.com/Collektive/collektive-experiments-bootstrap/issues/485)) ([ae4b426](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ae4b426ed43ec11651b9743410a97cfece8976d7))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-python action to v6.1.0 ([#484](https://github.com/Collektive/collektive-experiments-bootstrap/issues/484)) ([994aee1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/994aee1278215ae308ffa2134c06f6fce8d6ea3b))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.20 [skip ci] ([c0e0970](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c0e0970e8b956706eae02938c85bc1810ecc469f))
+
 ## [1.1.20](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.19...1.1.20) (2025-11-21)
 
 ### Dependency updates
