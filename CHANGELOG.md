@@ -1,3 +1,13 @@
+## [1.1.26](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.25...1.1.26) (2026-03-21)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.3.20 ([#579](https://github.com/Collektive/collektive-experiments-bootstrap/issues/579)) ([9cf6df9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9cf6df9718e566b8f026c4af1a5635d96a555e25))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.25 [skip ci] ([e765b63](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e765b63c017e90d9dcf361002e46d3facf279105))
+
 ## [1.1.25](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.24...1.1.25) (2026-03-21)
 
 ### Dependency updates
