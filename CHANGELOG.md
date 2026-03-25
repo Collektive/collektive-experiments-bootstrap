@@ -1,3 +1,21 @@
+## [1.1.27](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.26...1.1.27) (2026-03-25)
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.collektive.collektive-plugin to v28.2.1 ([#592](https://github.com/Collektive/collektive-experiments-bootstrap/issues/592)) ([8f42837](https://github.com/Collektive/collektive-experiments-bootstrap/commit/8f4283748d1b686f90b953c223ca0f5ce62b4417))
+* **deps:** update alchemist to v43.0.21 (patch) ([#588](https://github.com/Collektive/collektive-experiments-bootstrap/issues/588)) ([f6abd17](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f6abd17722a35f08860ee49d77878bd634258760))
+* **deps:** update alchemist to v43.0.22 (patch) ([#589](https://github.com/Collektive/collektive-experiments-bootstrap/issues/589)) ([2945877](https://github.com/Collektive/collektive-experiments-bootstrap/commit/29458774882bb2b1d2b94f6f3d3db7fa2d2a5d43))
+* **deps:** update plugin com.gradle.develocity to v4.4.0 ([#591](https://github.com/Collektive/collektive-experiments-bootstrap/issues/591)) ([0636d63](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0636d63b77dddbbb753572934b34d59a2f6bcb66))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.27 ([#587](https://github.com/Collektive/collektive-experiments-bootstrap/issues/587)) ([4dc0f0e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4dc0f0e192a290691c6494627409f91eb44e1015))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.28 ([#590](https://github.com/Collektive/collektive-experiments-bootstrap/issues/590)) ([1dd6af2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1dd6af2daaa8eb7589cc1c9f0f7cf1fd225d21bf))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.26 [skip ci] ([88718d7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/88718d7fb59ea6e05dcd0031dd9a3b67c96e85f6))
+
 ## [1.1.26](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.25...1.1.26) (2026-03-21)
 
 ### Dependency updates
