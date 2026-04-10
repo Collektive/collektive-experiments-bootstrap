@@ -1,3 +1,23 @@
+## [1.1.29](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.28...1.1.29) (2026-04-10)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v28.2.3 (patch) ([#611](https://github.com/Collektive/collektive-experiments-bootstrap/issues/611)) ([4250efc](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4250efc96827127206d9b78072775bdbd408103b))
+* **deps:** update alchemist to v43.0.28 (patch) ([#604](https://github.com/Collektive/collektive-experiments-bootstrap/issues/604)) ([e0aabd9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e0aabd9f2a25443ba49f08839c1e53ee9fd43bcb))
+* **deps:** update alchemist to v43.0.29 (patch) ([#605](https://github.com/Collektive/collektive-experiments-bootstrap/issues/605)) ([9708898](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9708898117e442b9fd8a5ff0a81c339115b05a27))
+* **deps:** update alchemist to v43.0.30 (patch) ([#607](https://github.com/Collektive/collektive-experiments-bootstrap/issues/607)) ([ef5769d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ef5769df23588f62f50f22288c51abcdbb68c5fa))
+* **deps:** update alchemist to v43.0.31 (patch) ([#608](https://github.com/Collektive/collektive-experiments-bootstrap/issues/608)) ([63df67d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/63df67d2715e37605ae527a7c7fef1e2112f00d7))
+* **deps:** update alchemist to v43.0.32 (patch) ([#609](https://github.com/Collektive/collektive-experiments-bootstrap/issues/609)) ([d2c3ecc](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d2c3ecc0a8a4db93f271e5d85b7b240250b742d6))
+* **deps:** update alchemist to v43.0.33 (patch) ([#610](https://github.com/Collektive/collektive-experiments-bootstrap/issues/610)) ([afde1fc](https://github.com/Collektive/collektive-experiments-bootstrap/commit/afde1fc2f8d1bac2b9dffba0a884aff4930df57f))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.31 ([#606](https://github.com/Collektive/collektive-experiments-bootstrap/issues/606)) ([2b8422b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2b8422b49ed1ce636f69a3014244a2673f07bb7d))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.28 [skip ci] ([f42a161](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f42a161befb2c93a3c4066476e90baff57ee4c44))
+
 ## [1.1.28](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.27...1.1.28) (2026-04-02)
 
 ### Dependency updates
