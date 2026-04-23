@@ -1,3 +1,32 @@
+## [1.1.30](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.29...1.1.30) (2026-04-23)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.3.21 ([#628](https://github.com/Collektive/collektive-experiments-bootstrap/issues/628)) ([1965f30](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1965f303f709e29b4efa0deb306fb002179ae37b))
+* **deps:** update alchemist to v43.0.34 (patch) ([#614](https://github.com/Collektive/collektive-experiments-bootstrap/issues/614)) ([aeb5eb5](https://github.com/Collektive/collektive-experiments-bootstrap/commit/aeb5eb5813d4a52337c68f48b2e0492e44f40105))
+* **deps:** update alchemist to v43.0.35 (patch) ([#616](https://github.com/Collektive/collektive-experiments-bootstrap/issues/616)) ([b5dd4b8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b5dd4b81ca716bee5df7bc3e2c0d6fb93adc13d4))
+* **deps:** update alchemist to v43.0.37 (patch) ([#617](https://github.com/Collektive/collektive-experiments-bootstrap/issues/617)) ([eb86208](https://github.com/Collektive/collektive-experiments-bootstrap/commit/eb8620873a36ad62292a61b9da39c939674a5678))
+* **deps:** update alchemist to v43.0.38 (patch) ([#620](https://github.com/Collektive/collektive-experiments-bootstrap/issues/620)) ([1f7fb7f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1f7fb7f4b797834b87280c7d6cab98cb68862185))
+* **deps:** update alchemist to v43.0.39 (patch) ([#625](https://github.com/Collektive/collektive-experiments-bootstrap/issues/625)) ([4f3fea1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4f3fea1acd1425b5de7148bbb8810eb34f56e7d7))
+* **deps:** update alchemist to v43.0.40 (patch) ([#627](https://github.com/Collektive/collektive-experiments-bootstrap/issues/627)) ([fd91b33](https://github.com/Collektive/collektive-experiments-bootstrap/commit/fd91b33094b59c28b3fd67e094496edbc3ad7e52))
+* **deps:** update alpine docker tag to v3.23.4 ([#621](https://github.com/Collektive/collektive-experiments-bootstrap/issues/621)) ([0a0a963](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0a0a9639cd5c955a3d78cf9207f687064d00fa3e))
+* **deps:** update dependency xarray to v2026.4.0 ([#618](https://github.com/Collektive/collektive-experiments-bootstrap/issues/618)) ([444fc10](https://github.com/Collektive/collektive-experiments-bootstrap/commit/444fc100336cd3bf941ae3862827648f0fd15fae))
+* **deps:** update node.js to 24.15 ([#619](https://github.com/Collektive/collektive-experiments-bootstrap/issues/619)) ([04dce6a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/04dce6a367a0116fffcecde78a9d613d9e386278))
+* **deps:** update plugin com.gradle.develocity to v4.4.1 ([#623](https://github.com/Collektive/collektive-experiments-bootstrap/issues/623)) ([a733963](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a733963768bf528b5bf059ff4e91cc4efd38aa0c))
+* **deps:** update plugin kotlin-qa to v1.4.1 ([#624](https://github.com/Collektive/collektive-experiments-bootstrap/issues/624)) ([3f189bd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3f189bd9738079a1aab11126c8f95a90e7a8d541))
+* **deps:** update plugin kotlin-qa to v1.5.0 ([#626](https://github.com/Collektive/collektive-experiments-bootstrap/issues/626)) ([3a0fe30](https://github.com/Collektive/collektive-experiments-bootstrap/commit/3a0fe30b254dfdc2486880ddae4d1e99c76d0d22))
+* **deps:** update python docker tag to v3.14.4 ([#613](https://github.com/Collektive/collektive-experiments-bootstrap/issues/613)) ([01a0105](https://github.com/Collektive/collektive-experiments-bootstrap/commit/01a01053c18ce4e7cb52c389e898734429adf302))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.4.0 ([#622](https://github.com/Collektive/collektive-experiments-bootstrap/issues/622)) ([f80cfad](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f80cfad27f029ed74bbb74de3b0529e0a35abe99))
+* **deps:** update actions/upload-artifact action to v7.0.1 ([#612](https://github.com/Collektive/collektive-experiments-bootstrap/issues/612)) ([e415fa7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e415fa7aceef866b3a9efca4c1c03cf3848e1434))
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.32 ([#615](https://github.com/Collektive/collektive-experiments-bootstrap/issues/615)) ([4cc4826](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4cc4826a7d19d67fca205cf65f017414ccd9c0d2))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.29 [skip ci] ([ff24179](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ff24179b976167804326f3d6a76f358032c6a670))
+
 ## [1.1.29](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.28...1.1.29) (2026-04-10)
 
 ### Dependency updates
