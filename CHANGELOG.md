@@ -1,3 +1,20 @@
+## [1.1.31](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.30...1.1.31) (2026-05-09)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v28.2.5 (patch) ([#629](https://github.com/Collektive/collektive-experiments-bootstrap/issues/629)) ([ff8aecb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/ff8aecbda47a3632796f008b9070523a139a68cf))
+* **deps:** update alchemist to v43.0.48 (patch) ([#630](https://github.com/Collektive/collektive-experiments-bootstrap/issues/630)) ([1f65074](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1f650743ea72afcc22d46648edbfc6ed13f4d793))
+* **deps:** update dependency matplotlib to v3.10.9 ([#631](https://github.com/Collektive/collektive-experiments-bootstrap/issues/631)) ([7df2950](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7df295002b40dd565639c89a8429ee13b675b4ce))
+* **deps:** update gradle to v9.5.0 ([#635](https://github.com/Collektive/collektive-experiments-bootstrap/issues/635)) ([500db1a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/500db1ace5b011e2cdf381483ecd165c913af044))
+* **deps:** update plugin gitsemver to v7.0.18 ([#632](https://github.com/Collektive/collektive-experiments-bootstrap/issues/632)) ([2518542](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2518542fbc7a51e6a914d9afd48cb8393181eef7))
+* **deps:** update plugin kotlin-qa to v1.5.1 ([#633](https://github.com/Collektive/collektive-experiments-bootstrap/issues/633)) ([d2f0f57](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d2f0f5751c3b71bef1b68ea8be0c132febaf4bc9))
+* **deps:** update plugin kotlin-qa to v1.6.1 ([#636](https://github.com/Collektive/collektive-experiments-bootstrap/issues/636)) ([b6c4cc6](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b6c4cc6ab4e8540d01952add06aed48684b7fe9f))
+* **deps:** update plugin multijvmtesting to v4.3.5 ([#634](https://github.com/Collektive/collektive-experiments-bootstrap/issues/634)) ([aae9380](https://github.com/Collektive/collektive-experiments-bootstrap/commit/aae938052af9b67ecebf186e77064157bfaca073))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.30 [skip ci] ([c9f8e3b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c9f8e3b20e15c3244d9f7661c85ca58b4d9351dd))
+
 ## [1.1.30](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.29...1.1.30) (2026-04-23)
 
 ### Dependency updates
