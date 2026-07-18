@@ -1,3 +1,20 @@
+## [1.1.34](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.33...1.1.34) (2026-07-18)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v28.3.1 ([#693](https://github.com/Collektive/collektive-experiments-bootstrap/issues/693)) ([219906b](https://github.com/Collektive/collektive-experiments-bootstrap/commit/219906b605c809c6f20195e0d54610a55bdab787))
+* **deps:** update plugin gitsemver to v7.0.23 ([#691](https://github.com/Collektive/collektive-experiments-bootstrap/issues/691)) ([85d6a2a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/85d6a2a57170494a475858a46a2ddffc41ac8f5f))
+* **deps:** update plugin kotlin-qa to v1.8.1 ([#689](https://github.com/Collektive/collektive-experiments-bootstrap/issues/689)) ([88554c8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/88554c8f07ca0a91836e3b68e21702c47afe76bb))
+* **deps:** update plugin multijvmtesting to v4.5.4 ([#690](https://github.com/Collektive/collektive-experiments-bootstrap/issues/690)) ([697e7e1](https://github.com/Collektive/collektive-experiments-bootstrap/commit/697e7e191f0617bea694b9b703f760f2d3114bca))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.41 ([#692](https://github.com/Collektive/collektive-experiments-bootstrap/issues/692)) ([0dd6622](https://github.com/Collektive/collektive-experiments-bootstrap/commit/0dd6622e0b8abe967358776a79c6ce206e7ee0c9))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.33 [skip ci] ([dfb41c7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/dfb41c7070edabcebe268f90ab487ed46df8bda3))
+
 ## [1.1.33](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.32...1.1.33) (2026-07-14)
 
 ### Dependency updates
