@@ -1,3 +1,19 @@
+## [1.1.35](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.34...1.1.35) (2026-07-24)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v28.3.2 ([#697](https://github.com/Collektive/collektive-experiments-bootstrap/issues/697)) ([df36cdc](https://github.com/Collektive/collektive-experiments-bootstrap/commit/df36cdca080b425ae02b7dc6b7db8469f1eae407))
+* **deps:** update dependency matplotlib to v3.11.1 ([#696](https://github.com/Collektive/collektive-experiments-bootstrap/issues/696)) ([2dcda29](https://github.com/Collektive/collektive-experiments-bootstrap/commit/2dcda29bf72c7974c0954eaf0f38ab3606805566))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v7.0.1 ([#695](https://github.com/Collektive/collektive-experiments-bootstrap/issues/695)) ([7e3ce03](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7e3ce0395c57823e0c88b917e1015f19edc48903))
+* **deps:** update actions/setup-python action to v7 ([#694](https://github.com/Collektive/collektive-experiments-bootstrap/issues/694)) ([5b15204](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5b152041e338c8f29fecd6ce8d143b502c98cf27))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.34 [skip ci] ([7c762f8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7c762f85b24ca9581e6fcb3a767059306d8058cb))
+
 ## [1.1.34](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.33...1.1.34) (2026-07-18)
 
 ### Dependency updates
