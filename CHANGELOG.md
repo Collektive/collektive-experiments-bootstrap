@@ -1,3 +1,13 @@
+## [1.1.38](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.37...1.1.38) (2026-09-30)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v28.3.4 ([#729](https://github.com/Collektive/collektive-experiments-bootstrap/issues/729)) ([bfdef32](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bfdef3272f089a153f8d5e9ad336254fc5eb9a64))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.37 [skip ci] ([96e0b69](https://github.com/Collektive/collektive-experiments-bootstrap/commit/96e0b69668bbf4d14f213848e4a23f855585df64))
+
 ## [1.1.37](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.36...1.1.37) (2026-09-29)
 
 ### Dependency updates
