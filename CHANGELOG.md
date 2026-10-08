@@ -1,3 +1,23 @@
+## [1.1.39](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.38...1.1.39) (2026-10-08)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.4.21 ([#738](https://github.com/Collektive/collektive-experiments-bootstrap/issues/738)) ([1828ff9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1828ff911897125b7f3884f6da40e5901bc9fedd))
+* **deps:** update dependency xarray to v2026.9.0 ([#730](https://github.com/Collektive/collektive-experiments-bootstrap/issues/730)) ([bd0b27c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bd0b27cbceecf5065b7aa176d27c1c3411352ddc))
+* **deps:** update gradle to v9.8.1 ([#734](https://github.com/Collektive/collektive-experiments-bootstrap/issues/734)) ([445f395](https://github.com/Collektive/collektive-experiments-bootstrap/commit/445f395b3a3aef49b973a1115e93b0a8f9088ecb))
+* **deps:** update plugin kotlin-qa to v1.10.1 ([#735](https://github.com/Collektive/collektive-experiments-bootstrap/issues/735)) ([94564ec](https://github.com/Collektive/collektive-experiments-bootstrap/commit/94564eceae08abd7eb44bc5998df022f5947bdde))
+* **deps:** update plugin multijvmtesting to v4.5.8 ([#731](https://github.com/Collektive/collektive-experiments-bootstrap/issues/731)) ([bd962ec](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bd962ece907d4e9d4d1c572e231315990543a4b5))
+* **deps:** update plugin multijvmtesting to v4.5.9 ([#736](https://github.com/Collektive/collektive-experiments-bootstrap/issues/736)) ([bdb5212](https://github.com/Collektive/collektive-experiments-bootstrap/commit/bdb52122f706eea05138e37341ce254b9c093813))
+
+### Build and continuous integration
+
+* **deps:** update actions/download-artifact action to v8.0.2 ([#732](https://github.com/Collektive/collektive-experiments-bootstrap/issues/732)) ([aba09fd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/aba09fd269f5d983c3cde93458f2f1d897c12492))
+* **deps:** update actions/upload-artifact action to v7.0.2 ([#733](https://github.com/Collektive/collektive-experiments-bootstrap/issues/733)) ([577b0ab](https://github.com/Collektive/collektive-experiments-bootstrap/commit/577b0ab4b7806214448ac7565b38b148ddc15ce7))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.38 [skip ci] ([5fa126e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5fa126edc37abaac30149c7767817491b395a641))
+
 ## [1.1.38](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.37...1.1.38) (2026-09-30)
 
 ### Dependency updates
