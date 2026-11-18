@@ -7,7 +7,7 @@ jobs:
   check-simulations-native:
     strategy:
       matrix:
-        os: [ windows-2022, macos-26, ubuntu-24.04 ]
+        os: [ windows-2022, macos-26, ubuntu-26.04 ]
     runs-on: ${{ matrix.os }}
     concurrency:
       group: sim-check${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
@@ -54,7 +54,7 @@ jobs:
           name: charts
           path: charts.tar.zst
   #  check-simulations-docker:
-  #    runs-on: ubuntu-24.04
+  #    runs-on: ubuntu-26.04
   #    concurrency:
   #      group: container-check${{ github.workflow }}${{ matrix.os }}${{ github.event.number || github.ref }}
   #      cancel-in-progress: true
