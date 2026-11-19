@@ -1,3 +1,26 @@
+## [1.1.42](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.41...1.1.42) (2026-11-19)
+
+### Dependency updates
+
+* **core-deps:** update collektive to v30 ([#777](https://github.com/Collektive/collektive-experiments-bootstrap/issues/777)) ([e7f3d52](https://github.com/Collektive/collektive-experiments-bootstrap/commit/e7f3d5299b53a51c31074bbb3c82684652e54508))
+* **deps:** update alchemist to v50.0.4 ([#742](https://github.com/Collektive/collektive-experiments-bootstrap/issues/742)) ([1e9e867](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1e9e8670dc69d499a782a79708a6910257440145))
+* **deps:** update alpine docker tag to v3.24.4 ([#764](https://github.com/Collektive/collektive-experiments-bootstrap/issues/764)) ([5a06a8a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/5a06a8a342045796338c52f145c41feae1cd92d8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.158 ([#765](https://github.com/Collektive/collektive-experiments-bootstrap/issues/765)) ([a9dd1d7](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a9dd1d75b80c1789c7599da6c2102d8e209f4fed))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.159 ([#776](https://github.com/Collektive/collektive-experiments-bootstrap/issues/776)) ([4b22dbb](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4b22dbbcaee860debfe81b5acdba7b6a3bf70a8a))
+* **deps:** update eclipse-temurin docker tag to v27 ([#771](https://github.com/Collektive/collektive-experiments-bootstrap/issues/771)) ([b4180f8](https://github.com/Collektive/collektive-experiments-bootstrap/commit/b4180f88b994c3f0a101efc247a533807bb3cf2b))
+* **deps:** update gradle to v9.9.1 ([#767](https://github.com/Collektive/collektive-experiments-bootstrap/issues/767)) ([1be5bed](https://github.com/Collektive/collektive-experiments-bootstrap/commit/1be5bed38dd7b82b95f0c54bd63af04987992d48))
+* **deps:** update python docker tag to v3.15.2 ([7c73411](https://github.com/Collektive/collektive-experiments-bootstrap/commit/7c73411247c770a2f978923d39d623205ef9f3fd))
+
+### Build and continuous integration
+
+* **deps:** update danysk/build-check-deploy-gradle-action action to v4.0.52 ([#766](https://github.com/Collektive/collektive-experiments-bootstrap/issues/766)) ([115e62d](https://github.com/Collektive/collektive-experiments-bootstrap/commit/115e62da04a5f719b1dc0359fa9177b936f33059))
+* **deps:** update dependency ubuntu github actions runner to v26 ([#774](https://github.com/Collektive/collektive-experiments-bootstrap/issues/774)) ([f9581f2](https://github.com/Collektive/collektive-experiments-bootstrap/commit/f9581f276467a62924f2c70db7b2a1491a2d597a))
+* **deps:** update dependency windows github actions runner to v2025 ([#775](https://github.com/Collektive/collektive-experiments-bootstrap/issues/775)) ([a8ff7b4](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a8ff7b4a361b792d9713e3a213e2275fd3fbe8c5))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.41 [skip ci] ([40480cf](https://github.com/Collektive/collektive-experiments-bootstrap/commit/40480cf826661bc10b227c641c69e3caa07e6198))
+
 ## [1.1.41](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.40...1.1.41) (2026-11-17)
 
 ### Dependency updates
