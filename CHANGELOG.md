@@ -1,3 +1,20 @@
+## [1.1.43](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.42...1.1.43) (2026-11-27)
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.collektive.collektive-plugin to v30.0.1 ([#784](https://github.com/Collektive/collektive-experiments-bootstrap/issues/784)) ([c36cc03](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c36cc0390fcc6e6a9c8dd7307e8fc9e97f21da1c))
+* **deps:** update alchemist to v50.0.5 ([#779](https://github.com/Collektive/collektive-experiments-bootstrap/issues/779)) ([d476289](https://github.com/Collektive/collektive-experiments-bootstrap/commit/d4762898a6a36f3651e779debfa1f2c090cba191))
+* **deps:** update alchemist to v50.0.6 ([a4a811e](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a4a811e87f76b77ddd47896afcdd33f1f4065d50))
+* **deps:** update alchemist to v50.0.7 ([#782](https://github.com/Collektive/collektive-experiments-bootstrap/issues/782)) ([c81cb77](https://github.com/Collektive/collektive-experiments-bootstrap/commit/c81cb770fb148263eefa695a4226a4e10c8c1dac))
+* **deps:** update alchemist to v50.0.8 ([4738dfd](https://github.com/Collektive/collektive-experiments-bootstrap/commit/4738dfdc856742c662d341a9d8d562b62bc605fd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.160 ([a98761f](https://github.com/Collektive/collektive-experiments-bootstrap/commit/a98761f293d9c9b8ef3a8013e144d28f901c00e1))
+* **deps:** update gradle to v9.9.2 ([#778](https://github.com/Collektive/collektive-experiments-bootstrap/issues/778)) ([97fda84](https://github.com/Collektive/collektive-experiments-bootstrap/commit/97fda84822073a2f5eca787dda63eeaad204079a))
+* **deps:** update gradle to v9.9.3 ([#785](https://github.com/Collektive/collektive-experiments-bootstrap/issues/785)) ([789803c](https://github.com/Collektive/collektive-experiments-bootstrap/commit/789803cbc984edb35fc4fe230b63ca592bf7bcf4))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.42 [skip ci] ([9e0eb51](https://github.com/Collektive/collektive-experiments-bootstrap/commit/9e0eb51023ffe592406fbe798323889d85c171cb))
+
 ## [1.1.42](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.41...1.1.42) (2026-11-19)
 
 ### Dependency updates
