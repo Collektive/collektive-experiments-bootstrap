@@ -1,3 +1,13 @@
+## [1.1.44](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.43...1.1.44) (2026-11-28)
+
+### Dependency updates
+
+* **core-deps:** update dependency it.unibo.collektive.collektive-plugin to v31 ([#786](https://github.com/Collektive/collektive-experiments-bootstrap/issues/786)) ([085a43a](https://github.com/Collektive/collektive-experiments-bootstrap/commit/085a43a1a2d710b1601028bd290304cc38e6e696))
+
+### General maintenance
+
+* **release:** update gradle.properties .env versions to 1.1.43 [skip ci] ([aa97cb9](https://github.com/Collektive/collektive-experiments-bootstrap/commit/aa97cb918a8b1ae96ce9d58f6846d801d1de300c))
+
 ## [1.1.43](https://github.com/Collektive/collektive-experiments-bootstrap/compare/1.1.42...1.1.43) (2026-11-27)
 
 ### Dependency updates
